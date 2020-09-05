@@ -1,0 +1,276 @@
+{
+    "Header":
+    {
+        "BrandLogo":"restaurant-images/logo-text-white.png",
+        "BrandLogoSticky":"restaurant-images/logo-text-black.png",
+        "Items":["homeContainer","aboutContainer","featuresContainer","bookTableContainer"],
+        "ScrollSpy":[
+            {
+                "Menu":"Home",
+                "Href":"#homeContainer"
+            },
+            {
+                "Menu":"About",
+                "Href":"#aboutContainer"
+            },
+            {
+                "Menu":"Features",
+                "Href":"#featuresContainer"
+            },
+            {
+                "Menu":"Book Table",
+                "Href":"#bookTableContainer"
+            }
+        ]
+    },
+    
+    "Banner":
+    {
+        "BannerHeading":"Delicious Food is Good for Health",
+        "BannerPara":"We provide Italian and mexican cuisine food which will make your soul happy.",
+        "CommonBtnLabel":"Explore",
+        "Slider":[
+            {
+                "SlideImg":"restaurant-images/banner-image-1.jpg",
+                "CaptionHeading":"Healthy Food",
+                "CaptionPara":"Lorem Ipsum is simply dummy text"
+            },
+            {
+                "SlideImg":"restaurant-images/banner-image-2.jpg",
+                "CaptionHeading":"Fiorentina Steak",
+                "CaptionPara":"Lorem Ipsum is simply dummy text"
+            },
+            {
+                "SlideImg":"restaurant-images/banner-image-3.jpg",
+                "CaptionHeading":"Arancini & Suppli",
+                "CaptionPara":"Lorem Ipsum is simply dummy text"
+            }
+        ]
+    },
+
+    "About":
+    {
+        "AboutLeftImage":"restaurant-images/food-image-big.png",
+        "AboutRightColHeading":"We serve the best comfort food for our lovely customers",
+        "AboutRightPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book...",
+        "CommonBtnLabel":"Explore"
+    },
+
+    "About2":
+    {
+        "About2RightColHeading":"Try our exquisite italian and french cuisines",
+        "About2RightPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic...",
+        "CommonBtnLabel":"Explore",
+        "About2LeftImage":"restaurant-images/food-image-option.png"
+    },
+
+    "Video":
+    {
+        "VideoColHeading":"We serve tasty food with the purpose of love, see how we have delivered happiness.",
+        "VideoColImg":"restaurant-images/video-icon.png"
+    },
+
+    "Features":
+    {
+        "SectionHeading":"Taste Our Delicious Food",
+        "FeaturesListWrapper":[
+            {
+                "FeaturesLeftImg":"restaurant-images/image-1.jpg",
+                "FeaturesContentTitle":"Roasted Sweet & Chicken Puff",
+                "FeaturesContentPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+                "FeaturesContentPrice":"$ 25"
+            },
+            {
+                "FeaturesLeftImg":"restaurant-images/image-2.jpg",
+                "FeaturesContentTitle":"American Delicious Pan Cake",
+                "FeaturesContentPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+                "FeaturesContentPrice":"$ 25"
+            },
+            {
+                "FeaturesLeftImg":"restaurant-images/image-3.jpg",
+                "FeaturesContentTitle":"Chinese Crunchi Burger Combo",
+                "FeaturesContentPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+                "FeaturesContentPrice":"$ 25"
+            },
+            {
+                "FeaturesLeftImg":"restaurant-images/image-4.jpg",
+                "FeaturesContentTitle":"Pure Veg & Butter Pizza Combo",
+                "FeaturesContentPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+                "FeaturesContentPrice":"$ 25"
+            }
+        ]
+    },
+
+    "DishesSlider":
+    {
+        "SliderWrapperHeading":"Our Tasty Dishes",
+        "SliderColWrapper":[
+            {
+                "SliderImg":"restaurant-images/sliding-image-1.jpg",
+                "SliderHoverText":"Delicious Grilled Sandwich",
+                "SliderHoverIcon":"restaurant-images/arrow.png"
+            },
+            {
+                "SliderImg":"restaurant-images/sliding-image-2.jpg",
+                "SliderHoverText":"Lasagne",
+                "SliderHoverIcon":"restaurant-images/arrow.png"
+            },
+            {
+                "SliderImg":"restaurant-images/sliding-image-3.jpg",
+                "SliderHoverText":"Ribollita",
+                "SliderHoverIcon":"restaurant-images/arrow.png"
+            },
+            {
+                "SliderImg":"restaurant-images/sliding-image-4.jpg",
+                "SliderHoverText":"Prosciutto",
+                "SliderHoverIcon":"restaurant-images/arrow.png"
+            },
+            {
+                "SliderImg":"restaurant-images/sliding-image-5.jpg",
+                "SliderHoverText":"Saltimbocca",
+                "SliderHoverIcon":"restaurant-images/arrow.png"
+            },
+            {
+                "SliderImg":"restaurant-images/sliding-image-2.jpg",
+                "SliderHoverText":"Torrone",
+                "SliderHoverIcon":"restaurant-images/arrow.png"
+            },
+            {
+                "SliderImg":"restaurant-images/sliding-image-3.jpg",
+                "SliderHoverText":"Tiramisu",
+                "SliderHoverIcon":"restaurant-images/arrow.png"
+            }
+        ],
+
+        "PrevImg":"restaurant-images/left-arrow.svg",
+        "NextImg":"restaurant-images/right-arrow.svg"
+    },
+
+    "BookTable":
+    {
+        "BookTableLeftHeading":"Book Your Table Online",
+        "BookTableLeftPara":" Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "CommonBtnText":"Explore",
+        "CommonBtnLabel":"Send"
+
+    },
+
+    "FAQ":
+    {
+        "DelayConstant":50,
+        "FaqSectionHeading":"Frequently Asked Questions",
+        "AccordianCustom":[
+            {
+                "title":"What’s the difference between WordPress.org and WordPress.com?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in"
+            },
+            {
+                "title":"How do I get WordPress to Use My Language?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"
+            },
+            {
+                "title":"Which license do I need to use an item in a commercial?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"
+            },
+            {
+                "title":"Being an Exclusive Author: What Do I Need to Know?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in"
+            },
+            {
+                "title":"How do I find my Windows product key?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the"
+            }
+        ]
+    },
+    
+    "SubscribeNewsLetter":
+    {
+        "DelayConstant":50,
+        "SectionHeading":"Subscribe Newsletter",
+        "SectionSubHeading":"Receive Our Latest Product Updates by Email"
+    },
+
+    "Footer":
+    {
+        "FooterCol1":
+        {
+            "FooterTitle":"Reach Us",
+            "FooterPara":[
+                {
+                    "Para":"130 Spruce St#28B, Philadelphia, PA 19106, USA"
+                }
+            ]
+        },
+
+        "FooterCol2":
+        {
+            "FooterTitle":"Dishes",
+            "FooterUl1":[
+                {
+                    "FooterMenu":"Veg Food"
+                },
+                {
+                    "FooterMenu":"Non Veg"
+                },
+                {
+                    "FooterMenu":"Burger"
+                },
+                {
+                    "FooterMenu":"Pizza"
+                }
+            ],
+
+            "FooterUl2":[
+                {
+                    "FooterMenu":"Desserts"
+                },
+                {
+                    "FooterMenu":"Curry Dishes"
+                },
+                {
+                    "FooterMenu":"Meals"
+                },
+                {
+                    "FooterMenu":"Delicious Food"
+                }
+            ]
+        },
+
+        "FooterCol3":
+        {
+            "FooterTitle":"Our Branches",
+            "FooterUl":[
+                {
+                    "FooterMenu":"New York"
+                },
+                {
+                    "FooterMenu":"Mexico"
+                },
+                {
+                    "FooterMenu":"Washington DC"
+                },
+                {
+                    "FooterMenu":"Los Angels"
+                }
+            ]
+        },
+
+        "FooterCol4":
+        {
+            "FooterTitle":"Follow Us On",
+            "FooterSocial":
+            [
+                {
+                    "FooterSocialImg":"restaurant-images/twitter-icon.png"
+                },
+                {
+                    "FooterSocialImg":"restaurant-images/insta-icon.png"
+                },
+                {
+                    "FooterSocialImg":"restaurant-images/yt-icon.png"
+                }
+            ]
+        },
+        "BottomFooterPara":" © Copyright @: reactrepo.com"
+    }
+}

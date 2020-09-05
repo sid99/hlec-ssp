@@ -1,0 +1,370 @@
+{
+    "Header":
+    {
+        "BrandLogo":"saas-images/logo-text-white.png",
+        "BrandLogoSticky":"saas-images/logo-text-black.png",
+        "Items":["homeContainer","featuresContainer","productsContainer","performanceContainer","pricingContainer"],
+        "ScrollSpy":[
+            {
+                "Menu":"Home",
+                "Href":"#homeContainer"
+            },
+            {
+                "Menu":"Features",
+                "Href":"#featuresContainer"
+            },
+            {
+                "Menu":"Product",
+                "Href":"#productsContainer"
+            },
+            {
+                "Menu":"Performance",
+                "Href":"#performanceContainer"
+            },
+            {
+                "Menu":"Pricing",
+                "Href":"#pricingContainer"
+            }
+        ]
+    },
+    
+    "Banner":
+    {
+        "DelayConstant":200,
+        "BannerH3":"Simple Smart CRM",
+        "BannerH4":"That Works for You",
+        "BannerPara":"We help you to stay connected with your clients and to manage them more effective than ever.",
+        "BannerBtn":"Get Started Now",
+        "BannerVideoBtnTxt":"Intro Video",
+        "BannerImage":"saas-images/banner-rightimage.png"
+    },
+
+    "Features":
+    {
+        "DelayConstant":50,
+        "FeaturesLeftH3":"Best CRM Solutions for your small business",
+        "FeaturesLeftPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when",
+        "FeaturesLeftBtn":"Get Started Now",
+        "FeaturesRight":[
+            {
+                "FeaturesCardIcon":"saas-images/android-development.svg",
+                "FeaturesCardHeading":"Lead Management",
+                "FeaturesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            },
+            {
+                "FeaturesCardIcon":"saas-images/company-growth.svg",
+                "FeaturesCardHeading":"Sales Analytics",
+                "FeaturesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            },
+            {
+                "FeaturesCardIcon":"saas-images/seo-development.svg",
+                "FeaturesCardHeading":"Revenue Forecasting",
+                "FeaturesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            },
+            {
+                "FeaturesCardIcon":"saas-images/web-development.svg",
+                "FeaturesCardHeading":"Reporting Dashboard",
+                "FeaturesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            }
+        ]
+    },
+
+    "KeyFeatures":
+    {
+        "DelayConstant":50,
+        "KeyFeaturesHeading":"Features",
+        "KeyFeaturesPara":"Top rated crm software to help you manage better.",
+        "KeyFeaturesLeftImg":"saas-images/servicessectionimage.png",
+        "KeyFeaturesRightUl":[
+            {
+                "KeyFeaturesRightLih3":"Web Analytics Integration",
+                "KeyFeaturesRightLipara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            },
+            {
+                "KeyFeaturesRightLih3":"Sales Performance Management",
+                "KeyFeaturesRightLipara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            },
+            {
+                "KeyFeaturesRightLih3":"Call Center Automation and Integration",
+                "KeyFeaturesRightLipara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            }
+        ],
+        "KeyFeaturesRightBtn":"Get Started Now"
+    },
+
+    "Products":
+    {
+        "DelayConstant":50,
+        "ProductsHeading":"Our Product",
+        "ProductsSubHeading":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "ProductsRow1":
+        {
+            "ProductsRightImgFirst":"saas-images/products1.1.png",
+            "ProductsRightImgSecond":"saas-images/products1.2.png",
+            "ProductsLeftHeading":"Sales Cycle/Velocity Reports",
+            "ProductsLeftPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "ProductsBtn":"Get Started Now"
+        },
+        "Row":
+        {
+            "ProductsLeftImgFirst":"saas-images/products2.1.png",
+            "ProductsLeftImgSecond":"saas-images/products2.2.png",
+            "ProductsLeftHeading":"KPI Dashboards",
+            "ProductsLeftPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "ProductsBtn":"Get Started Now"
+        },
+        "ProductsRow2":
+        {
+            "ProductsRightImgFirst":"saas-images/products3.1.png",
+            "ProductsRightImgSecond":"saas-images/products3.2.png",
+            "ProductsLeftHeading":"Monthly Sales Growth",
+            "ProductsLeftPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "ProductsBtn":"Get Started Now"
+        }
+        
+    },
+
+    "Performance":
+    {
+        "DelayConstant":50,
+        "PerformanceSectionHeading":"Our CRM Popularity",
+        "PerformanceHeadingPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Row":[
+            {
+                "PerformanceCount":"455",
+                "PerformanceDetails":"People Following"
+            },
+            {
+                "PerformanceCount":"1200",
+                "PerformanceDetails":"Facebook Likes"
+            },
+            {
+                "PerformanceCount":"500",
+                "PerformanceDetails":"Shares"
+            },
+            {
+                "PerformanceCount":"15+",
+                "PerformanceDetails":"Years Experience"
+            }
+        ]
+    },
+
+    "Pricing":
+    {
+        "DelayConstant":50,
+        "PricingHeading":"Pricing Plan",
+        "PricingSubHeading":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "PricingPlanCol":[
+            {
+                "PricingPlanHeading":"Standard Edition",
+                "PricingPlanImg":"saas-images/pricing-1.svg",
+                "PricingPlanPrice":"$ 2,400",
+                "PricingPlanPriceSpan":"month",
+                "PricingPlanDarkText":[
+                    {
+                        "Text":"1 Docs Site"
+                    },
+                    {
+                        "Text":"Reports (30 Days)"
+                    },
+                    {
+                        "Text":"Saved Replies"
+                    }
+                ],
+                "PricingPlanLightText":[
+                    {
+                        "Text":"Mentions and Follow"
+                    },
+                    {
+                        "Text":"iOS and Android Apps"
+                    }
+                ],
+                "PricingPlanBtn":"Purchase"
+            },
+            {
+                "PricingPlanHeading":"Business Edition",
+                "PricingPlanImg":"saas-images/pricing-2_hover-01.svg",
+                "PricingPlanPrice":"$ 2,800",
+                "PricingPlanPriceSpan":"month",
+                "PricingPlanDarkText":[
+                    {
+                        "Text":"1 Docs Site"
+                    },
+                    {
+                        "Text":"Reports (30 Days)"
+                    },
+                    {
+                        "Text":"Saved Replies"
+                    }
+                ],
+                "PricingPlanLightText":[
+                    {
+                        "Text":"Mentions and Follow"
+                    },
+                    {
+                        "Text":"iOS and Android Apps"
+                    }
+                ],
+                "PricingPlanBtn":"Purchase"
+            },
+            {
+                "PricingPlanHeading":"Premium Edition",
+                "PricingPlanImg":"saas-images/pricing-3.svg",
+                "PricingPlanPrice":"$ 3,600",
+                "PricingPlanPriceSpan":"month",
+                "PricingPlanDarkText":[
+                    {
+                        "Text":"1 Docs Site"
+                    },
+                    {
+                        "Text":"Reports (30 Days)"
+                    },
+                    {
+                        "Text":"Saved Replies"
+                    }
+                ],
+                "PricingPlanLightText":[
+                    {
+                        "Text":"Mentions and Follow"
+                    },
+                    {
+                        "Text":"iOS and Android Apps"
+                    }
+                ],
+                "PricingPlanBtn":"Purchase"
+            }
+        ]
+    },
+
+    "FAQ":
+    {
+        "DelayConstant":50,
+        "FaqSectionHeading":"Frequently Asked Questions",
+        "FaqSectionSubHeading":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "AccordianCustom":[
+            {
+                "title":"What’s the difference between WordPress.org and WordPress.com?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+            },
+            {
+                "title":"How do I get WordPress to Use My Language?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"
+            },
+            {
+                "title":"Which license do I need to use an item in a commercial?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            },
+            {
+                "title":"Being an Exclusive Author: What Do I Need to Know?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+            },
+            {
+                "title":"How do I find my Windows product key?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also"
+            }
+        ]
+    },
+
+    "Testimonials":
+    {
+        "DelayConstant":50,
+        "TestimonialHeading":"Testimonials",
+        "TestimonialSubHeading":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "CardProfileLayout":[
+            {
+                "ProfilePic":"saas-images/testimonial-1.jpg",
+                "ProfileName":"John Wall",
+                "Designation":"Director at ABC",
+                "TestimonailHeading":"Best File Sharing Solution",
+                "Testimonial":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+            },
+            {
+                "ProfilePic":"saas-images/testimonial-2.jpg",
+                "ProfileName":"Dan Taylor",
+                "Designation":"CEO at XYZ",
+                "TestimonailHeading":"Excellent Tool For Business",
+                "Testimonial":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+            },
+            {
+                "ProfilePic":"saas-images/testimonial-3.jpg",
+                "ProfileName":"Jeremy Watson",
+                "Designation":"CTO at ABC",
+                "TestimonailHeading":"Best File Sharing Solution",
+                "Testimonial":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+            },
+            {
+                "ProfilePic":"saas-images/testimonial-1.jpg",
+                "ProfileName":"John Wall",
+                "Designation":"Director at ABC",
+                "TestimonailHeading":"Best File Sharing Solution",
+                "Testimonial":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+            }
+        ],
+        "PrevImg":"saas-images/left-arrow.svg",
+        "NextImg":"saas-images/right-arrow.svg"
+    },
+
+    "Footer":
+    {
+        "FooterLogo":"saas-images/logo-text-white.png",
+        
+        "Items":["homeContainer","featuresContainer","productsContainer","performanceContainer","pricingContainer"],
+        
+        "FooterCol2":
+        {
+            "FooterTitle":"About",
+            "FooterPara":[
+                {
+                    "Para":"We help you to stay connected with your clients and to manage them more effective than ever. We help you to stay connected with your clients and to manage them more effective than ever."
+                }
+            ]
+        },
+
+        "FooterCol3":
+        {
+            "FooterTitle":"Quick Links",
+            "FooterUl":[
+                {
+                    "FooterMenu":"Home",
+                    "Href":"#homeContainer"
+                },
+                {
+                    "FooterMenu":"Features",
+                    "Href":"#featuresContainer"
+                },
+                {
+                    "FooterMenu":"Product",
+                    "Href":"#productsContainer"
+                },
+                {
+                    "FooterMenu":"Performance",
+                    "Href":"#performanceContainer"
+                },
+                {
+                    "FooterMenu":"Pricing",
+                    "Href":"#pricingContainer"
+                }
+            ]
+        },
+
+        "FooterCol4":
+        {
+            "FooterTitle":"Get In Touch",
+            "FooterAddWrapper":[
+                {
+                    "FooterAddImg":"saas-images/call.svg",
+                    "FooterAddText":"+91 98450 98540"
+                },
+                {
+                    "FooterAddImg":"saas-images/mail.svg",
+                    "FooterAddText":"hello@reactrepo.com"
+                },
+                {
+                    "FooterAddImg":"saas-images/address.svg",
+                    "FooterAddText":"Ground Floor, No 451, 17th Cross Road, Sector 4, HSR Layout, Bangalore - 102"
+                }
+            ]
+        },
+        "BottomFooterPara":" © 2019 Copyrights by reactrepo.com"
+    }
+}

@@ -1,0 +1,56 @@
+
+- Make whatsapp server bigger
+- Check where bechoapp is installed in Vercel
+- defualt menu is having wrong url
+- tracking order - better meta data
+
+
+- 
+
+- Upon cancellation by seller, we need to send a cancelled by seller msg
+- Seller name evrerywhere 
+
+- get sentry to frontend
+
+
+- Indian company
+
+
+
+
+- Can we add a name of the buyer here on BCP - DONE
+- Messages: Store name, delivery date - DONE no delivery
+- We need to send a message when Seller cancels the order - DONE
+- Ordering page from Menu order link - seller name is not there - DONE
+- Can we have sellers name some where in the web url like /ivory - DONE - WILL BE TAKEN OUT
+- Buyer side order cancellation option seems to be broken - DONE
+- Payment request is going even if the status is Paid - DONE
+- Confirmation is going to buyer even after fulfilled is the status - DONE
+- When fulfilled is pressed, we have to send a payment link if status is not paid - DONE
+
+- Messages - Amit Re Test
+- ivory roots in shared link
+
+Done
+- All the messages should have store name, only missing thing is delivery dates
+- Seller name is visible in the BCP header
+- Cancellation worklfow should work as expected, buyer will not receive cancellation message when she cancels the order(lets discuss more in call), will receive message when Seller does
+- Buyer Name inputs in BCP
+- checkout payment status before confimration - we do not send confirmation second time, so this should be resolved
+- When fulfilled is pressed, we have to send a payment link if status is not paid
+
+Amit
+- error message to seller if the order is already confirmed
+- Sending payment links when seller wants
+- Bunch of changes, chances of bugs
+
+TODO:
+- error message to seller if the order is already confirmed - We could not send as they were already confirm
+- messaging in the order form - 
+- BCP the disclaimer is not at the bottom
+
+https://bechoapp.page.link/sadsadasdsa
+
+
+- company - Indian company
+- phase two

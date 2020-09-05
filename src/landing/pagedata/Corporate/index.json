@@ -1,0 +1,453 @@
+{
+    "Header":
+    {
+        "BrandLogo":"corporate-images/logo-text-white.png",
+        "BrandLogoSticky":"corporate-images/logo-text-black.png",
+        "Items":["homeContainer","aboutContainer","portfolioContainer","featuresContainer","contactContainer"],
+        "ScrollSpy":[
+            {
+                "Menu":"Home",
+                "Href":"#homeContainer"
+            },
+            {
+                "Menu":"About",
+                "Href":"#aboutContainer"
+            },
+            {
+                "Menu":"Portfolio",
+                "Href":"#portfolioContainer"
+            },
+            {
+                "Menu":"Features",
+                "Href":"#featuresContainer"
+            },
+            {
+                "Menu":"Contact",
+                "Href":"#contactContainer"
+            }
+        ]
+    },
+
+    "Banner":
+    {
+        "DelayConstant":50,
+        "BannerH3":"Explore the Dynamic Possibilities of App Development",
+        "BannerPara":"With the help of our expert team we give you customised design that makes your app stand out",
+        "BannerBtn":"Contact Now",
+        "BannerImage":"corporate-images/banner-vector.png"
+    },
+
+    "KeyServices":
+    {
+        "DelayConstant":50,
+        "SectionHeading":"Key Services",
+        "SectionSubHeading":"We have Best Services",
+        "KeyServicesCustomContainer":[
+            {
+                "KeyServicesIcon":"corporate-images/graphic-design.svg",
+                "KeyServicesHeading":"Android Development",
+                "KeyServicesDesc":"Lorem Ipsum is simply dummy text of the printing standard"
+            },
+            {
+                "KeyServicesIcon":"corporate-images/seo-consulting.svg",
+                "KeyServicesHeading":"iOS App Development",
+                "KeyServicesDesc":"Lorem Ipsum is simply dummy text of the printing standard"
+            },
+            {
+                "KeyServicesIcon":"corporate-images/digital-marketing.svg",
+                "KeyServicesHeading":"Reactjs Development",
+                "KeyServicesDesc":"Lorem Ipsum is simply dummy text of the printing standard"
+            },
+            {
+                "KeyServicesIcon":"corporate-images/social-media-marketing.svg",
+                "KeyServicesHeading":"Nodejs Development",
+                "KeyServicesDesc":"Lorem Ipsum is simply dummy text of the printing standard"
+            },
+            {
+                "KeyServicesIcon":"corporate-images/android-development.svg",
+                "KeyServicesHeading":"PHP Development",
+                "KeyServicesDesc":"Lorem Ipsum is simply dummy text of the printing standard"
+            },
+            {
+                "KeyServicesIcon":"corporate-images/web-app-development.svg",
+                "KeyServicesHeading":"Fluttr Development",
+                "KeyServicesDesc":"Lorem Ipsum is simply dummy text of the printing standard"
+            }
+        ]
+    },
+
+    "About":
+    {
+        "DelayConstant":50,
+        "AboutLeftImage":"corporate-images/about-vector.png",
+        "AboutHeading":"Who we are",
+        "AboutDesc":"We provide custom mobile app developement for SME and Large enterprises. Our team of expert app developers will develop your idea into reality within your budget and timeframe.",
+        "AboutBtn":"Contact Us"
+    },
+
+    "Portfolio":
+    {
+        "DelayConstant":50,
+        "SectionHeading":"Portfolio",
+        "SectionSubHeading":"Who we are",
+        "PorfolioSlider":[
+            {
+                "PorfolioSliderImg":"corporate-images/portfolio-2.png",
+                "PorfolioSliderTitle":"Modern Homes",
+                "PorfolioSliderHoverText":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "PorfolioSliderImg":"corporate-images/portfolio-4.png",
+                "PorfolioSliderTitle":"Jobs Portal",
+                "PorfolioSliderHoverText":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "PorfolioSliderImg":"corporate-images/portfolio-3.png",
+                "PorfolioSliderTitle":"Modern Restaurants",
+                "PorfolioSliderHoverText":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "PorfolioSliderImg":"corporate-images/portfolio-5.png",
+                "PorfolioSliderTitle":"Creative Agency",
+                "PorfolioSliderHoverText":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            }
+        ],
+        "PrevImg":"corporate-images/left-arrow.svg",
+        "NextImg":"corporate-images/right-arrow.svg"
+    },
+
+    "KeyFeatures":
+    {
+        "DelayConstant":50,
+        "SectionHeading":"Key Features",
+        "KeyFeatLeftCol":[
+            {
+                "KeyFeatLeftIconimg":"corporate-images/html.svg",
+                "KeyFeatLeftTitle":"Android Development",
+                "KeyFeatLeftPara":"Lorem Ipsum is simply dummy text of the printing standard"
+            },
+            {
+                "KeyFeatLeftIconimg":"corporate-images/react.svg",
+                "KeyFeatLeftTitle":"iOS App Development",
+                "KeyFeatLeftPara":"Lorem Ipsum is simply dummy text of the printing standard"
+            },
+            {
+                "KeyFeatLeftIconimg":"corporate-images/node.svg",
+                "KeyFeatLeftTitle":"Reactjs Development",
+                "KeyFeatLeftPara":"Lorem Ipsum is simply dummy text of the printing standard"
+            },
+            {
+                "KeyFeatLeftIconimg":"corporate-images/psd.svg",
+                "KeyFeatLeftTitle":"Nodejs Development",
+                "KeyFeatLeftPara":"Lorem Ipsum is simply dummy text of the printing standard"
+            }
+        ],
+        
+        "KeyFeatRightimg":"corporate-images/features-vector.png"
+        
+    },
+
+    "Team":
+    {
+        "DelayConstant":50,
+        "SectionHeading":"Our Team",
+        "TeamSlider":[
+            {
+                "TeamSliderImg":"corporate-images/team-1.jpg",
+                "TeamName":"Derek Peters",
+                "TeamDesignation":"Director",
+                "TeamSocial":[
+                    {
+                        "TeamSocialImg":"corporate-images/team-fb.png"
+                    },
+                    {
+                        "TeamSocialImg":"corporate-images/team-twitter.png"
+                    },
+                    {
+                        "TeamSocialImg":"corporate-images/team-.in.png"
+                    },
+                    {
+                        "TeamSocialImg":"corporate-images/team-.instagram.png"
+                    }
+                ]
+            },
+            {
+                "TeamSliderImg":"corporate-images/team-2.jpg",
+                "TeamName":"Vince Dawson",
+                "TeamDesignation":"CEO",
+                "TeamSocial":[
+                    {
+                        "TeamSocialImg":"corporate-images/team-fb.png"
+                    },
+                    {
+                        "TeamSocialImg":"corporate-images/team-twitter.png"
+                    },
+                    {
+                        "TeamSocialImg":"corporate-images/team-.in.png"
+                    },
+                    {
+                        "TeamSocialImg":"corporate-images/team-.instagram.png"
+                    }
+                ]
+            },
+            {
+                "TeamSliderImg":"corporate-images/team-3.jpg",
+                "TeamName":"Jeremy Watson",
+                "TeamDesignation":"Manager",
+                "TeamSocial":[
+                    {
+                        "TeamSocialImg":"corporate-images/team-fb.png"
+                    },
+                    {
+                        "TeamSocialImg":"corporate-images/team-twitter.png"
+                    },
+                    {
+                        "TeamSocialImg":"corporate-images/team-.in.png"
+                    },
+                    {
+                        "TeamSocialImg":"corporate-images/team-.instagram.png"
+                    }
+                ]
+            },
+            {
+                "TeamSliderImg":"corporate-images/team-1.jpg",
+                "TeamName":"Andrew Roberts",
+                "TeamDesignation":"Lead",
+                "TeamSocial":[
+                    {
+                        "TeamSocialImg":"corporate-images/team-fb.png"
+                    },
+                    {
+                        "TeamSocialImg":"corporate-images/team-twitter.png"
+                    },
+                    {
+                        "TeamSocialImg":"corporate-images/team-.in.png"
+                    },
+                    {
+                        "TeamSocialImg":"corporate-images/team-.instagram.png"
+                    }
+                ]
+            },
+            {
+                "TeamSliderImg":"corporate-images/team-2.jpg",
+                "TeamName":"Thomas John",
+                "TeamDesignation":"Designer",
+                "TeamSocial":[
+                    {
+                        "TeamSocialImg":"corporate-images/team-fb.png"
+                    },
+                    {
+                        "TeamSocialImg":"corporate-images/team-twitter.png"
+                    },
+                    {
+                        "TeamSocialImg":"corporate-images/team-.in.png"
+                    },
+                    {
+                        "TeamSocialImg":"corporate-images/team-.instagram.png"
+                    }
+                ]
+            }
+        ],
+        "PrevImg":"corporate-images/left-arrow.svg",
+        "NextImg":"corporate-images/right-arrow.svg"
+    },
+
+    "Testimonials":
+    {
+        "DelayConstant":50,
+        "TestimonialHeading":"Testimonials",
+        "TestimonialSubHeading":"What our clients say about us",
+        "TestimonialPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+        "CardProfileLayout":[
+            {
+                "ProfilePic":"corporate-images/team-1.jpg",
+                "ProfileName":"John Wall",
+                "Testimonial":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+            },
+            {
+                "ProfilePic":"corporate-images/team-2.jpg",
+                "ProfileName":"Dan Taylor",
+                "Testimonial":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+            },
+            {
+                "ProfilePic":"corporate-images/team-3.jpg",
+                "ProfileName":"Jeremy Watson",
+                "Testimonial":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+            },
+            {
+                "ProfilePic":"corporate-images/testimonial-profile-pic.png",
+                "ProfileName":"George Bill",
+                "Testimonial":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+            }
+        ]
+    },
+
+    "ContactUs":
+    {
+        "SectionHeading":"Contact Us",
+        "SectionSubHeading":"Get in touch with us",
+        "ContactRight":
+        {
+            "ContactRightHeading":"Enquire Now",
+            "ContactRightPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
+            "ContactRightRow":[
+                {
+                    "ContactRightImg":"corporate-images/phone.svg",
+                    "ContactRightText":"+91 98450 98540"
+                },
+                {
+                    "ContactRightImg":"corporate-images/mail.svg",
+                    "ContactRightText":"hello@reactrepo.com"
+                },
+                {
+                    "ContactRightImg":"corporate-images/address.svg",
+                    "ContactRightText":"Ground Floor, No 451, 17th Cross Road, Sector 4, HSR Layout, Bangalore - 102"
+                }
+            ]
+        }
+    },
+
+    "Clients":
+    {
+        "DelayConstant":50,
+        "SectionHeading":"Our Clients",
+        "SectionSubHeading":"Our Valuable Clientele",
+        "ClientsInner1":[
+            {
+                "ClientsImage":"corporate-images/client-1.png"
+            },
+            {
+                "ClientsImage":"corporate-images/client-2.png"
+            },
+            {
+                "ClientsImage":"corporate-images/client-3.png"
+            },
+            {
+                "ClientsImage":"corporate-images/client-4.png"
+            }
+        ],
+        "ClientsInner2":[
+            {
+                "ClientsImage":"corporate-images/client-5.png"
+            },
+            {
+                "ClientsImage":"corporate-images/client-6.png"
+            },
+            {
+                "ClientsImage":"corporate-images/client-7.png"
+            },
+            {
+                "ClientsImage":"corporate-images/client-8.png"
+            }
+        ],
+        "ClientsInner3":[
+            {
+                "ClientsImage":"corporate-images/client-9.png"
+            },
+            {
+                "ClientsImage":"corporate-images/client-10.png"
+            },
+            {
+                "ClientsImage":"corporate-images/client-11.png"
+            },
+            {
+                "ClientsImage":"corporate-images/client-12.png"
+            }
+        ]
+    },
+
+    "SubscribeNewsLetter":
+    {
+        "DelayConstant":50,
+        "SectionHeading":"Subscribe Newsletter",
+        "SectionSubHeading":"Receive Our Latest Product Updates by Email"
+    },
+
+    "Footer":
+    {
+        "DelayConstant":50,
+        "FooterCol1":
+        {
+            "FooterTitle":"Company",
+            "FooterPara":[
+                {
+                    "Para":"Address: Champ de Mars, 5 Avenue Anatole France"
+                },
+                {
+                    "Para":"Email: hello@reactrepo.com"
+                },
+                {
+                    "Para":"Phone: +91 98450 98540"
+                }
+            ]
+        },
+        "FooterCol2":
+        {
+            "FooterTitle":"About",
+            "FooterPara":[
+                {
+                    "Para":" Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+                }
+            ]
+        },
+        "FooterCol3":
+        {
+            "FooterTitle":"Quick Links",
+            "Items":["homeContainer","aboutContainer","portfolioContainer","featuresContainer","contactContainer"],
+            "FooterUl":[
+                {
+                    "Menu":"Home",
+                    "Href":"#homeContainer"
+                },
+                {
+                    "Menu":"About",
+                    "Href":"#aboutContainer"
+                },
+                {
+                    "Menu":"Portfolio",
+                    "Href":"#portfolioContainer"
+                },
+                {
+                    "Menu":"Features",
+                    "Href":"#featuresContainer"
+                },
+                {
+                    "Menu":"Team",
+                    "Href":"#teamContainer"
+                },
+                {
+                    "Menu":"Testimonials",
+                    "Href":"#testimonialsContainer"
+                },
+                {
+                    "Menu":"Contact",
+                    "Href":"#contactContainer"
+                }
+            ]
+        },
+
+        "FooterCol4":
+        {
+            "FooterTitle":"Follow Us On",
+            "FooterSocial":
+            [
+                {
+                    "FooterSocialImg":"corporate-images/footer-fb.png"
+                },
+                {
+                    "FooterSocialImg":"corporate-images/footer-twitter.png"
+                },
+                {
+                    "FooterSocialImg":"corporate-images/footer-.in.png"
+                },
+                {
+                    "FooterSocialImg":"corporate-images/footer-youtube.png"
+                },
+                {
+                    "FooterSocialImg":"corporate-images/footer-.instagram.png"
+                }
+            ]
+        },
+        "BottomFooterPara":" © 2019 Copyrights by reactrepo.com"
+    }
+}

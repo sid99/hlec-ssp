@@ -1,0 +1,120 @@
+{
+  "Header":
+  {
+    "BrandLogo":"saas2-images/logo-text-black.png",
+    "BrandLogoSticky":"saas2-images/logo-text-black.png",
+    "Items":["homeContainer","featuresContainer","ProductContainer","performanceContainer","pricingContainer"],
+    "ScrollSpy":[
+      {
+	"Menu":"Home",
+	"Href":"#homeContainer"
+      },
+      {
+	"Menu":"Features",
+	"Href":"#featuresContainer"
+      },
+      {
+	"Menu":"Product",
+	"Href":"#ProductContainer"
+      }
+    ]
+  },
+
+  "Banner":
+  {
+    "BannerH3":"Smart Apps for Social Commerce",
+    "BannerPara":"One-stop solution to Build, Manage and Grow your business across all social channels like Whatsapp, Instagram, Facebook, Telegram and JioChat",
+    "BannerBtn":"Launch",
+    "BannerVideoBtnTxt":"Intro Video",
+    "BannerImage":"saas2-images/banner-vector.png"
+  },
+
+  "ProductOverview":
+  {
+    "DelayConstant":50,
+    "SectionHeading":"Product Overview",
+    "SectionSubHeading":"We have Best Services",
+    "ProductOverviewCustomContainer":[
+      {
+	"ProductOverviewIcon":"saas2-images/graphic-design.svg",
+	"ProductOverviewHeading":"Personalized Store",
+	"ProductOverviewDesc":"Create and Share personalized store across all social channels in one click"
+      },
+      {
+	"ProductOverviewIcon":"saas2-images/seo-consulting.svg",
+	"ProductOverviewHeading":"Order Management",
+	"ProductOverviewDesc":"Simple One-stop view to track all your active orders across all social channels"
+      },
+      {
+	"ProductOverviewIcon":"saas2-images/digital-marketing.svg",
+	"ProductOverviewHeading":"Campaign Management",
+	"ProductOverviewDesc":"Create personalized offers and increase conversion rates"
+      },
+      {
+	"ProductOverviewIcon":"saas2-images/social-media-marketing.svg",
+	"ProductOverviewHeading":"Access Anywhere",
+	"ProductOverviewDesc":"Customized mobile and web apps to track sales and orders"
+      },
+      {
+	"ProductOverviewIcon":"saas2-images/android-development.svg",
+	"ProductOverviewHeading":"Plugins",
+	"ProductOverviewDesc":"Customized Plugins for business process automation"
+      },
+      {
+	"ProductOverviewIcon":"saas2-images/web-app-development.svg",
+	"ProductOverviewHeading":"Data Integration",
+	"ProductOverviewDesc":"Custom automations to Integrate with your existing business stack"
+      }
+    ]
+  },
+
+  "Footer":
+  {
+    "DelayConstant":50,
+    "FooterLogo":"saas2-images/logo-text-black.png",
+
+    "Items":["homeContainer","featuresContainer","ProductContainer"],
+    "FooterCol2":
+    {
+      "FooterTitle":"About",
+      "FooterPara":[
+	{
+	  "Para":" Viluva, Inc. builds digital applications and tools which enable individual entrepreneurs to manage and grow their business on local and global social platforms"
+	}
+      ]
+    },
+
+    "FooterCol3":
+    {
+      "FooterTitle":"Quick Links",
+      "FooterUl":[
+	{
+	  "FooterMenu":"Home",
+	  "Href":"#homeContainer"
+	},
+	{
+	  "FooterMenu":"Features",
+	  "Href":"#featuresContainer"
+	},
+	{
+	  "FooterMenu":"Product",
+	  "Href":"#ProductContainer"
+	}
+      ]
+    },
+
+    "FooterCol4":
+    {
+      "FooterTitle":"Get In Touch",
+      "FooterAddWrapper":[
+	{
+	  "FooterAddImg":"saas2-images/mail.svg",
+	  "FooterAddText":"admin@viluvainc.com"
+	}
+      ]
+    },
+    "BottomFooterPara":" © 2020 Copyrights by Viluva, Inc."
+  }
+
+
+}

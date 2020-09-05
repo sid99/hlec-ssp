@@ -1,21 +1,110 @@
-# Hello World example
+# BECHO SSP WEB CLIENT
 
-This example shows the most basic idea behind Next. We have 2 pages: `pages/index.js` and `pages/about.js`. The former responds to `/` requests and the latter to `/about`. Using `next/link` you can add hyperlinks between them with universal routing capabilities. The `day` directory shows that you can have subdirectories.
+This is becho seller side platform(ssp) web client, built with
+- material ui
+- react
+- nextjs
+- firebase auth
+- firebase firestore
+- vercel
 
-## Deploy your own
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Deploy the example using [Vercel](https://vercel.com):
+## NOTES
+Level 1 core elements
+- users
+- stores
+- catalogItems
+- menus
+- orders
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/hello-world)
+Level 2 core elements
+- buyers
+- payments
 
-## How to use
+Level 3 core elements
+- Reports
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Unit
+- Numbers
+- Grams
+- KiliGrams
 
-```bash
-npx create-next-app --example hello-world hello-world-app
-# or
-yarn create next-app --example hello-world hello-world-app
+Others
+- 10 options for the purchase orde
+- Store has both 
+- Menu has them as defaults 
+- Stores has delivery or pick up options
+- Store has timings 
+
+Notes:
+- all the timezones in moment are "Asia/Kolkata"
+
+Order workflow
+- status(used for tracking timeline)
+	- checked out
+	- placed
+	- confirmed
+	- ready to pickup
+	- picked up/deilivered
+- paymentStatus
+	- paid
+	- not paid
+- paymentStatusTime
+- modificationStatus - payment timeline
+	- not modified
+	- modified
+- modificationStatusTime
+- cancelStatus
+	- active
+	- cancelled
+- cancelStatusMessage
+	- canceledBySeller
+	- canceledByBuyer
+- cancelStatusTime
+- canceledBy
+
+```sh
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"longDynamicLink":"https://viluvainc.page.link/?link=https://viluvainc.com/placeorders/7hBvyotPJDbgtbn6WUiJ&st=sdas&sd=sadas&si=https://firebasestorage.googleapis.com/v0/b/playground-d4e7b.appspot.com/o/menuOne.jpeg?alt=media"}' \
+  https://firebasedynamiclinks.googleapis.com/v1/shortLinks\?key\=AIzaSyApGoaZVtoVTYnftHSbT9l7nDmDVUYJYpU
+
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"longDynamicLink":"https://viluvainc.page.link/?link=https://viluvainc.com/placeorders/7hBvyotPJDbgtbn6WUiJ&st=sdas&sd=sadas&si=https://firebasestorage.googleapis.com/v0/b/playground-d4e7b.appspot.com/o/2020-07-10%2014.43.19.jpeg?alt=media"}' \
+  https://firebasedynamiclinks.googleapis.com/v1/shortLinks\?key\=AIzaSyApGoaZVtoVTYnftHSbT9l7nDmDVUYJYpU
+
+# sending whatsapp message
+curl --header "Content-Type: application/json" \
+        --request POST \
+        --data '{"phoneNumber": "13095331606", "message": "Bye Bye Matrix"}' \
+        http://13.126.118.173:5000/sendMessage
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deployed on Vercel
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

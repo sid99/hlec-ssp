@@ -1,0 +1,42 @@
+export default [
+  {
+    bannerUrl: "https://firebasestorage.googleapis.com/v0/b/becho-ssp-client-test.appspot.com/o/sampleCatalogItems%2FcheeseCake.png?alt=media",
+    name: "Classic Cheese Cake",
+    description: "White chocolate orange, cream cheese ...White chocolate orange, cream cheese ...",
+    price: "3.00",
+    minimumPurchasableQuantity: "1",
+    unit: "Numbers",
+  },
+  {
+    bannerUrl: "https://firebasestorage.googleapis.com/v0/b/becho-ssp-client-test.appspot.com/o/sampleCatalogItems%2FmixedBerry.png?alt=media",
+    name: "Mixeberry Cupcake",
+    description: "Dark chocolate, chocolate buttercream ...",
+    price: "8.00",
+    minimumPurchasableQuantity: "1",
+    unit: "Numbers",
+  },
+  {
+    bannerUrl: "https://firebasestorage.googleapis.com/v0/b/becho-ssp-client-test.appspot.com/o/sampleCatalogItems%2FcreamCake.png?alt=media",
+    name: "Creamcake",
+    description: "Vanilla, Citrus, Grapham cracker, cream cheese ..Vanilla, Citrus, Grapham cracker, cream cheese ...",
+    price: "11.00",
+    minimumPurchasableQuantity: "1",
+    unit: "Numbers",
+  },
+  {
+    bannerUrl: "https://firebasestorage.googleapis.com/v0/b/becho-ssp-client-test.appspot.com/o/sampleCatalogItems%2FcheeseCake.png?alt=media",
+    name: "Oreo Cake",
+    description: "Red chocolate, cream cheese ...",
+    price: "5.00",
+    minimumPurchasableQuantity: "1",
+    unit: "Numbers",
+  },
+  {
+    bannerUrl: "https://firebasestorage.googleapis.com/v0/b/becho-ssp-client-test.appspot.com/o/sampleCatalogItems%2FchocolateCake.png?alt=media",
+    name: "Chocolate Cake",
+    description: "White chocolate orange, cream cheese ...",
+    price: "23.00",
+    minimumPurchasableQuantity: "1",
+    unit: "Numbers",
+  },
+];

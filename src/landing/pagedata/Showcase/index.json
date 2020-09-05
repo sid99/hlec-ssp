@@ -1,0 +1,297 @@
+{
+    "Header":
+    {
+        "BrandLogo":"showcase-images/logo-text-white.png",
+        "BrandLogoSticky":"showcase-images/logo-text-black.png",
+        "Items":["homeContainer","demosContainer","featuresContainer","downloadContainer"],
+        "ScrollSpy":[
+            {
+                "Menu":"Home",
+                "Href":"#homeContainer"
+            },
+            {
+                "Menu":"Demos",
+                "Href":"#demosContainer"
+            },
+            {
+                "Menu":"Features",
+                "Href":"#featuresContainer"
+            },
+            {
+                "Menu":"Download",
+                "Href":"#downloadContainer"
+            }
+        ]
+    },
+
+    "Banner":
+    {
+        "DelayConstant":50,
+        "BannerImage":"showcase-images/logo.png",
+        "BannerHeading":"Finest NextJS Landing Templates",
+        "BannerSubHeading":"New Generation Designs built with NextJS, ReactJS and Styled Components",
+        "BannerBtn":"Buy Now",
+        "BannerBtnHref":"https://www.reactrepo.com/template/15-zircon-next-react-nextjs-landing-pages/",
+        "BannerBtnDemos":"Demo"
+    },
+
+    "Demos":
+    {
+        "DelayConstant":50,
+        "Row1":{
+            "Heading":"Our Demos",
+            "SubHeading":"Explore our creative landing page designs"
+        },
+        "Row2":[
+            {
+                "DemoColHeading":"Saas",
+                "DemoColImg":"showcase-images/saas-1.jpg",
+                "url":"/saas"
+            },
+            {
+                "DemoColHeading":"Interior",
+                "DemoColImg":"showcase-images/interior-1.jpg",
+                "url":"/interior"
+            },
+            {
+                "DemoColHeading":"Corporate",
+                "DemoColImg":"showcase-images/corporate-1.jpg",
+                "url":"/corporate"
+            },
+            {
+                "DemoColHeading":"Table Booking",
+                "DemoColImg":"showcase-images/restaurant.jpg",
+                "url":"/restaurant"
+            },
+            {
+                "DemoColHeading":"Hosting",
+                "DemoColImg":"showcase-images/hosting.jpg",
+                "url":"/hosting"
+            },
+            {
+                "DemoColHeading":"App",
+                "DemoColImg":"showcase-images/app-1.jpg",
+                "url":"/app"
+            },
+            {
+                "DemoColHeading":"Saas - 2",
+                "DemoColImg":"showcase-images/saas-2.jpg",
+                "url":"/saas2"
+            },
+            {
+                "DemoColHeading":"Corporate - 2",
+                "DemoColImg":"showcase-images/corporate-2.jpg",
+                "url":"/corporate2"
+            },
+            {
+                "DemoColHeading":"App - 2",
+                "DemoColImg":"showcase-images/app-2.jpg",
+                "url":"/app2"
+            },
+            {
+                "DemoColHeading":"Interior - 2",
+                "DemoColImg":"showcase-images/interior-2.jpg",
+                "url":"/interior2"
+            }
+        ]
+
+    },
+
+    "Features":{
+        "DelayConstant":50,
+        "Row1":{
+                "FeatureHeading":"React Templates Built on NextJS",
+                "FeaturePara":"Get started with our themes in no time. We have built our react themes on NextJS and Bootstrap.",
+                "FeatureImg":"showcase-images/collage-1.png",
+                "FeaturesList":[
+                    {
+                        "feature":"Fully Responsive Landing Pages"
+                    },
+                    {
+                        "feature":"Easy Editable & Reusable Components"
+                    },
+                    {
+                        "feature":"Implemented using Styled Components"
+                    },
+                    {
+                        "feature":"Clean and Professional Code"
+                    }
+                ]
+            },
+
+        "Row2":{
+            "FeatureHeading":"Optimized for Speed and Performance",
+            "FeaturePara":"We have taken into consideration our react themes performance and speed from the design phase itself. We have tested our react themes in Google Pagespeed insights, Lighthouse, and GTMetrix. Our report shows 90+ scores on Google Pagespeed and A grade on GTMetrix.",
+            "FeatureImg":"showcase-images/Gadgets 1.png"
+        }
+    },
+
+    "KeyFeatures":{
+        "DelayConstant":50,
+        "Row1":{
+            "Heading":"Key Features"
+        },
+
+        "Row2":[
+            {
+                "FeaturesCardIcon":"showcase-images/nexticon.png",
+                "FeaturesCardHeading":"NextJS",
+                "FeaturesCardPara":"Blazing fast site generator for React"
+            },
+            {
+                "FeaturesCardIcon":"showcase-images/bootstrap icon.png",
+                "FeaturesCardHeading":"Bootstrap",
+                "FeaturesCardPara":"Components made with Bootstrap styled-components"
+            },
+            {
+                "FeaturesCardIcon":"showcase-images/styled components.png",
+                "FeaturesCardHeading":"Styled Components",
+                "FeaturesCardPara":"Plain CSS inside components. No class name collisions."
+            },
+            {
+                "FeaturesCardIcon":"showcase-images/styled icons.png",
+                "FeaturesCardHeading":"Styled Icons",
+                "FeaturesCardPara":"Icon packs available as styled-components"
+            },
+            {
+                "FeaturesCardIcon":"showcase-images/rusable code.png",
+                "FeaturesCardHeading":"Reusable Code",
+                "FeaturesCardPara":"Components can be reused across multiple pages."
+            },
+            {
+                "FeaturesCardIcon":"showcase-images/seo optimized.png",
+                "FeaturesCardHeading":"SEO Optimized",
+                "FeaturesCardPara":"React Helmet to manage SEO Tags and Titles"
+            },
+            {
+                "FeaturesCardIcon":"showcase-images/pwa-icon.png",
+                "FeaturesCardHeading":"PWA",
+                "FeaturesCardPara":"Looks and behaves in the same way as a mobile application"
+            },
+            {
+                "FeaturesCardIcon":"showcase-images/documented-icon.png",
+                "FeaturesCardHeading":"Well Documented",
+                "FeaturesCardPara":"Detailed documentation on how to Install and Use the pages"
+            },
+            {
+                "FeaturesCardIcon":"showcase-images/responsive.png",
+                "FeaturesCardHeading":"Fully Responsive",
+                "FeaturesCardPara":"All pages are tested across multiple devices and resolution"
+            },
+            {
+                "FeaturesCardIcon":"showcase-images/courosel.png",
+                "FeaturesCardHeading":"Slick Carousel",
+                "FeaturesCardPara":"Responsive and flexible React carousel"
+            },
+            {
+                "FeaturesCardIcon":"showcase-images/css-3.png",
+                "FeaturesCardHeading":"CSS3 HTML5",
+                "FeaturesCardPara":"Used CSS version 3 and HTML version 5"
+            },
+            {
+                "FeaturesCardIcon":"showcase-images/layout.png",
+                "FeaturesCardHeading":"One Page Layout",
+                "FeaturesCardPara":"All pages are One Page Websites with smooth scrolling"
+            }
+        ]
+
+    },
+
+    "FAQ":
+    {
+        "DelayConstant":50,
+        "FaqSectionHeading":"Frequently Asked Questions",
+        "AccordianCustom":[
+            {
+                "title":"What’s the difference between WordPress.org and WordPress.com?",
+                "description":"WordPress.com is a blog network run by Automattic. It uses WordPress software, but individual blogs are hosted and managed by WordPress.com. This is a free service with premium addons and upgrades. At WordPress.org, you can download WordPress, the web software that WordPress.com runs on. Once you’ve downloaded it, you can upload it to a web server and run your own WordPress website."
+            },
+            {
+                "title":"How do I get WordPress to Use My Language?",
+                "description":"Although WordPress displays in U.S. English by default, it has the built-in capability to be used in any language. The WordPress community has already translated WordPress into many languages, and there are Themes, translation files, and support available in many other languages."
+            },
+            {
+                "title":"Which license do I need to use an item in a commercial?",
+                "description":"You only need a regular license where the end product is an advertisement. It doesn’t matter if the advertisement is for things that are being sold."
+            },
+            {
+                "title":"Being an Exclusive Author: What Do I Need to Know?",
+                "description":"Phasellus mi tellus, laoreet facilisis tellus nec, commodo scelerisque erat. Curabitur suscipit, tellus et elementum pharetra, sem dui gravida tellus, in lobortis velit massa in sapien. Curabitur congue feugiat odio. Proin eleifend urna non magna cursus mollis. Nam cursus rhoncus risus, a iaculis ipsum vulputate eu. Nam lacus lorem, ultricies a varius in, auctor non orci."
+            },
+            {
+                "title":"How do I find my Windows product key?",
+                "description":"The product key is located inside the product packaging, on the receipt or confirmation page for a digital purchase or in a confirmation e-mail that shows you purchased Windows. If you purchased a digital copy from Microsoft Store, you can locate your product key in your Account under Digital Content."
+            },
+            {
+                "title":"My Windows 7 product key won't verify. What's the problem?",
+                "description":"The most common issue is the use of a product key for a product not currently supported by the site such as an Upgrade key, an MSDN key, product keys for pre-installed media or an Enterprise edition key. For access to MSDN products or Enterprise edition visit the MSDN Portal or the Volume Licensing Service Center. Upgrades and pre-installed media are not currently supported by the tools on the site."
+            },
+            {
+                "title":"I've created media using the media creation tool, now what do I do?",
+                "description":"Not all “system builder” products for Windows 7 are currently available on the site. We are working to add more, but for now, we suggest you contact Support."
+            }
+        ]
+    },
+
+    "Download":{
+        "DelayConstant":50,
+        "DownloadHeading":"Download Zircon-Next Landing Page Templates Today",
+        "BuyBtn":"Purchase Now",
+        "BuyBtnHref":"https://www.reactrepo.com/template/15-zircon-next-react-nextjs-landing-pages/"
+    },
+    
+    "Footer":
+    {
+        "DelayConstant":50,
+        "FooterLogo":"showcase-images/logo-text-black.png",
+        "FooterPara":" Lorem Ipsum is simply dummy text of the printing and ",
+        
+        "Items":["homeContainer","demosContainer","featuresContainer","downloadContainer"],
+        
+        "FooterCol2":
+        {
+            "FooterTitle":"About",
+            "FooterPara":[
+                {
+                    "Para":"Zircon-Next is a set of ReactJs Landing templates built with NextJs, bootstrap and styled components. We have 10 unique landing pages for many business types."
+                }
+            ]
+        },
+
+        "FooterCol3":
+        {
+            "FooterTitle":"Features",
+            "FooterPara":[
+                {
+                    "Para":" Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+                }
+            ]
+        },
+
+        "FooterCol4":
+        {
+            "FooterTitle":"Quick Links",
+            "FooterUl":[
+                {
+                    "FooterMenu":"Home",
+                    "Href":"#homeContainer"
+                },
+                {
+                    "FooterMenu":"Demos",
+                    "Href":"#demosContainer"
+                },
+                {
+                    "FooterMenu":"Features",
+                    "Href":"#featuresContainer"
+                },
+                {
+                    "FooterMenu":"Download",
+                    "Href":"#downloadContainer"
+                }
+            ]
+        },
+        
+        "BottomFooterPara":" © 2019 Copyrights by reactrepo.com"
+    }
+
+}

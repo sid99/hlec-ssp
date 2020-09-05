@@ -1,0 +1,301 @@
+{
+    "Header":
+    {
+        "BrandLogo":"hosting-images/logo-text-white.png",
+        "BrandLogoSticky":"hosting-images/logo-text-black.png",
+        "Items":["homeContainer","featuresContainer","aboutContainer","pricingContainer","contactContainer"],
+        "ScrollSpy":[
+            {
+                "Menu":"Home",
+                "Href":"#homeContainer"
+            },
+            {
+                "Menu":"Features",
+                "Href":"#featuresContainer"
+            },
+            {
+                "Menu":"About",
+                "Href":"#aboutContainer"
+            },
+            {
+                "Menu":"Pricing",
+                "Href":"#pricingContainer"
+            },
+            {
+                "Menu":"Contact",
+                "Href":"#contactContainer"
+            }
+        ]
+    },
+
+    "Banner":{
+        "BannerH4":"Best Web Hosting",
+        "BannerH3":"Solution for Your Business",
+        "BannerPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "BannerBtn":"Get Started",
+        "BannerImage":"hosting-images/banner-vector.png"
+    },
+
+    "Features":
+    {
+        "DelayConstant":50,
+        "FeaturesRight":[
+            {
+                "FeaturesCardIcon":"hosting-images/multi-server-01.svg",
+                "FeaturesCardHeading":"Secured Unlimited Storage",
+                "FeaturesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            },
+            {
+                "FeaturesCardIcon":"hosting-images/online-server-01.svg",
+                "FeaturesCardHeading":"Trusted Server Hosting",
+                "FeaturesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            },
+            {
+                "FeaturesCardIcon":"hosting-images/server-hosting-01.svg",
+                "FeaturesCardHeading":"Multi Purpose Server",
+                "FeaturesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            },
+            {
+                "FeaturesCardIcon":"hosting-images/storage-access-01.svg",
+                "FeaturesCardHeading":"Online Server Configuration",
+                "FeaturesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+            }
+        ]
+    },
+
+    "About":
+    {
+        "DelayConstant":50,
+        "AboutLeftImage":"hosting-images/about-vector.png",
+        "AboutHeading":"Our Network Details",
+        "AboutDesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "AboutBtn":"Contact Us"
+    },
+    
+    "KeyFeatures":
+    {
+        "DelayConstant":50,
+        "SectionHeading":"Server Features",
+        "SectionSubHeading":"We have Best Services",
+        "KeyFeaturesCustomContainer":[
+            {
+                "KeyFeaturesIcon":"hosting-images/key-feature-icon1.svg",
+                "KeyFeaturesHeading":"99.6% Server Uptime",
+                "KeyFeaturesDesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "KeyFeaturesIcon":"hosting-images/key-feature-icon2.svg",
+                "KeyFeaturesHeading":"Advanced Firewall",
+                "KeyFeaturesDesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "KeyFeaturesIcon":"hosting-images/key-feature-icon3.svg",
+                "KeyFeaturesHeading":"Latest Tech Stack",
+                "KeyFeaturesDesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "KeyFeaturesIcon":"hosting-images/key-feature-icon4.svg",
+                "KeyFeaturesHeading":"Fastest Ping times",
+                "KeyFeaturesDesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "KeyFeaturesIcon":"hosting-images/key-feature-icon5.svg",
+                "KeyFeaturesHeading":"CPanel and WHM installed",
+                "KeyFeaturesDesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "KeyFeaturesIcon":"hosting-images/key-feature-icon6.svg",
+                "KeyFeaturesHeading":"24/7 Tech Support",
+                "KeyFeaturesDesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            }
+        ]
+    },
+
+    "FAQ":
+    {
+        "DelayConstant":50,
+        "FaqSectionHeading":"Frequently Asked Questions",
+        "AccordianCustom":[
+            {
+                "title":"What’s the difference between WordPress.org and WordPress.com?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+            },
+            {
+                "title":"How do I get WordPress to Use My Language?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"
+            },
+            {
+                "title":"Which license do I need to use an item in a commercial?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            },
+            {
+                "title":"Being an Exclusive Author: What Do I Need to Know?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+            },
+            {
+                "title":"How do I find my Windows product key?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also"
+            }
+        ]
+    },
+   
+    "Pricing":
+    {
+        "DelayConstant":50,
+        "PricingHeading":"Pricing Plan",
+        "PricingPlanCol":[
+            {
+                "PricingPlanHeading":"Standard",
+                "PricingPlanImg":"hosting-images/pricing1.svg",
+                "PricingPlanPrice":"$ 999",
+                "PricingPlanPriceSpan":"Yearly",
+                "PricingPlanDarkText":[
+                    {
+                        "Text":"2 GB RAM"
+                    },
+                    {
+                        "Text":"2 Cores CPU"
+                    }
+                ],
+                "PricingPlanLightText":[
+                    {
+                        "Text":"120 GB Disk Space"
+                    },
+                    {
+                        "Text":"1.5 TB Bandwidth"
+                    }
+                ],
+                "PricingPlanBtn":"Contact"
+            },
+            {
+                "PricingPlanHeading":"Premium",
+                "PricingPlanImg":"hosting-images/pricing2.svg",
+                "PricingPlanPrice":"$ 1,499",
+                "PricingPlanPriceSpan":"Yearly",
+                "PricingPlanDarkText":[
+                    {
+                        "Text":"4 GB RAM"
+                    },
+                    {
+                        "Text":"4 Cores CPU"
+                    }
+                ],
+                "PricingPlanLightText":[
+                    {
+                        "Text":"200 GB Disk Space"
+                    },
+                    {
+                        "Text":"2 TB Bandwidth"
+                    }
+                ],
+                "PricingPlanBtn":"Contact"
+            },
+            {
+                "PricingPlanHeading":"Business",
+                "PricingPlanImg":"hosting-images/pricing3.svg",
+                "PricingPlanPrice":"$ 1,999",
+                "PricingPlanPriceSpan":"Yearly",
+                "PricingPlanDarkText":[
+                    {
+                        "Text":"8 GB RAM"
+                    },
+                    {
+                        "Text":"8 Cores CPU"
+                    }
+                ],
+                "PricingPlanLightText":[
+                    {
+                        "Text":"200 GB Disk Space"
+                    },
+                    {
+                        "Text":"4 TB Bandwidth"
+                    }
+                ],
+                "PricingPlanBtn":"Contact"
+            }
+        ]
+    },
+
+    "ContactUs":
+    {
+        "SectionHeading":"Get in Touch with Us",
+        "AddressCol1":[
+                {
+                    "AddressIcon":"hosting-images/call.svg",
+                    "AddressText":"+91 98450 98540"
+                },
+                {
+                    "AddressIcon":"hosting-images/mail.svg",
+                    "AddressText":"hello@reactrepo.com"
+                }
+            ],
+            "AddressCol2":[
+                {
+                    "AddressIcon":"hosting-images/call.svg",
+                    "AddressText":"1800 200 5544"
+                },
+                {
+                    "AddressIcon":"hosting-images/address.svg",
+                    "AddressText":"301S Market St, San Jose, CA 95113, USA"
+                }
+            ]
+    },
+
+    "Footer":{
+        "DelayConstant":50,
+        "Items":["homeContainer","featuresContainer","aboutContainer","pricingContainer","contactContainer"],
+        "FooterCol1":{
+            "FooterTitle":"Company",
+            "FooterPara":[
+                {
+                    "Para":"Address: Champ de Mars, 5 Avenue Anatole France"
+                },
+                {
+                    "Para":"Email: hello@reactrepo.com"
+                },
+                {
+                    "Para":"Phone: +91 98450 98540"
+                }
+            ]
+        },
+        "FooterCol2":{
+            "FooterTitle":"About Us",
+            "FooterPara":[
+                {
+                    "Para":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                }
+            ]
+        },
+        "FooterCol3":{
+            "FooterTitle":"Quick Links",
+            "FooterUl":[
+                {
+                    "Menu":"Home",
+                    "Href":"#homeContainer"
+                },
+                {
+                    "Menu":"Features",
+                    "Href":"#featuresContainer"
+                },
+                {
+                    "Menu":"About",
+                    "Href":"#aboutContainer"
+                },
+                {
+                    "Menu":"Pricing",
+                    "Href":"#pricingContainer"
+                },
+                {
+                    "Menu":"Contact",
+                    "Href":"#contactContainer"
+                }
+            ]
+
+        },
+        "FooterCol4":{
+            "FooterTitle":"Follow Us"
+        },
+        "BottomFooterPara":" © 2019 Copyrights by reactrepo.com"
+    }
+
+}

@@ -1,0 +1,341 @@
+{
+    "Header":
+    {
+        "BrandLogo":"app-images/logo-text-white.png",
+        "BrandLogoSticky":"app-images/logo-text-black.png",
+        "Items":["homeContainer","featuresContainer","productContainer","pricingContainer","contactContainer"],
+        "ScrollSpy":[
+            {
+                "Menu":"Home",
+                "Href":"#homeContainer"
+            },
+            {
+                "Menu":"Features",
+                "Href":"#featuresContainer"
+            },
+            {
+                "Menu":"Product",
+                "Href":"#productContainer"
+            },
+            {
+                "Menu":"Pricing",
+                "Href":"#pricingContainer"
+            },
+            {
+                "Menu":"Contact",
+                "Href":"#contactContainer"
+            }
+        ]
+    },
+
+    "Banner":
+    {
+        "DelayConstant":50,
+        "BannerH3Line1":"The World's No 1",
+        "BannerH3Line2":"Personal Finance App",
+        "BannerPara":"The easiest way to check your expenses and balances. Track all your cards and cash in one place.",
+        "BannerBtn":"Download",
+        "BannerImage":"app-images/app-vector.png"
+    },
+
+    "Features":{
+        "DelayConstant":50,
+        "FeaturesContents":[
+            {
+                "FeaturesCardIcon":"app-images/angular-js.svg",
+                "FeaturesCardHeading":"Budget Tracker",
+                "FeaturesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                "FeaturesBtn":"Read More"
+            },
+            {
+                "FeaturesCardIcon":"app-images/java-script.svg",
+                "FeaturesCardHeading":"Receipt Catch",
+                "FeaturesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                "FeaturesBtn":"Read More"
+            },
+            {
+                "FeaturesCardIcon":"app-images/visual-studio.svg",
+                "FeaturesCardHeading":"Spending Monitor",
+                "FeaturesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                "FeaturesBtn":"Read More"
+            }
+        ]
+    },
+
+    "AppFeatures":{
+        "DelayConstant":50,
+        "AppFeaturesHeading":"Features",
+        "AppFeaturesSubHeading":"User Friendly and Easy",
+        "AppFeaturesContent1":[
+            {
+                "AppFeaturesLeftBold":"Push Notifications",
+                "text":"is simply dummy text of the printing and ",
+                "AppFeaturesImg":"app-images/phone-icon.svg"
+            },
+            {
+                "AppFeaturesLeftBold":"Geo Location Enabled",
+                "text":"is simply dummy text of the printing and ",
+                "AppFeaturesImg":"app-images/coding-icon.svg"
+            },
+            {
+                "AppFeaturesLeftBold":"Easy Payment System",
+                "text":"is simply dummy text of the printing and ",
+                "AppFeaturesImg":"app-images/apps-icon.svg"
+            }
+        ],
+        "AppFeaturesContent2":{
+            "AppFeaturesMobile":"app-images/phone-vector.png"
+        },
+        "AppFeaturesContent3":[
+            {
+                "AppFeaturesLeftBold":"Fingerprint Scanner",
+                "text":"is simply dummy text of the printing and ",
+                "AppFeaturesImg":"app-images/favorite-icon.svg"
+            },
+            {
+                "AppFeaturesLeftBold":"Unlimited Credit",
+                "text":"is simply dummy text of the printing and ",
+                "AppFeaturesImg":"app-images/distance-icon.svg"
+            },
+            {
+                "AppFeaturesLeftBold":"Max User Experience",
+                "text":"is simply dummy text of the printing and ",
+                "AppFeaturesImg":"app-images/storage-icon.svg"
+            }
+        ]
+    },
+
+    "Products":{
+        "DelayConstant":50,
+        "ProductsRightImg":"app-images/purple-effect.png",
+        "ProductsCol2":{
+            "ProductsHeading":"PCI compliance",
+            "ProductsSubHeading":"For Payment Apps",
+            "ProductsPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "ProductsBtn":"Learn More"
+        }
+    },
+
+    "Pricing":
+    {
+        "DelayConstant":50,
+        "PricingHeading":"Pricing Plan",
+        "PricingSubHeading":"Personal Finance App",
+        "PricingCustomRow":[
+            {
+                "PricingPlanHeading":"Standard",
+                "PricingPlanImg":"app-images/pricing-icon-1.svg",
+                "PricingPlanPrice":"$ 999",
+                "PricingPlanPriceSpan":"Yearly",
+                "PricingPlanDarkText":[
+                    {
+                        "Text":"12 Month Support"
+                    },
+                    {
+                        "Text":"5 User Access"
+                    }
+                ],
+                "PricingPlanLightText":[
+                    {
+                        "Text":"Unlimited Bandwidth"
+                    },
+                    {
+                        "Text":"24/7 Customer Support"
+                    }
+                ],
+                "PricingPlanBtn":"Buy Now"
+            },
+            {
+                "PricingPlanHeading":"Premium",
+                "PricingPlanImg":"app-images/pricing-icon-2.svg",
+                "PricingPlanPrice":"$ 1,499",
+                "PricingPlanPriceSpan":"Yearly",
+                "PricingPlanDarkText":[
+                    {
+                        "Text":"12 Month Support"
+                    },
+                    {
+                        "Text":"5 User Access"
+                    }
+                ],
+                "PricingPlanLightText":[
+                    {
+                        "Text":"Unlimited Bandwidth"
+                    },
+                    {
+                        "Text":"24/7 Customer Support"
+                    }
+                ],
+                "PricingPlanBtn":"Buy Now"
+            },
+            {
+                "PricingPlanHeading":"Business",
+                "PricingPlanImg":"app-images/pricing-icon-3.svg",
+                "PricingPlanPrice":"$ 1,999",
+                "PricingPlanPriceSpan":"Yearly",
+                "PricingPlanDarkText":[
+                    {
+                        "Text":"12 Month Support"
+                    },
+                    {
+                        "Text":"5 User Access"
+                    }
+                ],
+                "PricingPlanLightText":[
+                    {
+                        "Text":"Unlimited Bandwidth"
+                    },
+                    {
+                        "Text":"24/7 Customer Support"
+                    }
+                ],
+                "PricingPlanBtn":"Buy Now"
+            }
+        ]
+    },
+
+    "Download":{
+        "DelayConstant":50,
+        "DownloadTitle":"Download",
+
+        "DownloadSubTitle":"Personal Finance App",
+        "DownloadPara":" Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "DownloadLinkImgApple":"app-images/app-store-icon.png",
+        "DownloadLinkImgGoogle":"app-images/play-store-icon.png",
+        
+        "DownloadDemo":"app-images/app-2.png"
+    },
+
+    "ContactUs":{
+        "DelayConstant":50,
+        "Heading":"Contact Us",
+        "SubHeading":"Get in Touch with Us",
+        "AddressWrapper1":[
+            {
+                "AddressIcon":"app-images/call-icon.svg",
+                "AddressText":"1800 200 5544"
+            },
+            {
+                "AddressIcon":"app-images/mail-icon.svg",
+                "AddressText":"hello@reactrepo.com"
+            }
+        ],
+        "AddressWrapper2":[
+            {
+                "AddressIcon":"app-images/call-icon.svg",
+                "AddressText":"1800 200 5544"
+            },
+            {
+                "AddressIcon":"app-images/address-icon.svg",
+                "AddressText":"301S Market St, San Jose, CA 95113, USA"
+            }
+        ]
+    },
+
+    "FAQ":
+    {
+        "DelayConstant":50,
+        "FaqSectionHeading":"FAQ",
+        "FaqSectionSubHeading":"Frequently Asked Questions",
+        "AccordianCustom":[
+            {
+                "title":"What’s the difference between WordPress.org and WordPress.com?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in"
+            },
+            {
+                "title":"How do I get WordPress to Use My Language?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"
+            },
+            {
+                "title":"Which license do I need to use an item in a commercial?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"
+            },
+            {
+                "title":"Being an Exclusive Author: What Do I Need to Know?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in"
+            },
+            {
+                "title":"How do I find my Windows product key?",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the"
+            }
+        ]
+    },
+
+    "Footer":{
+        "DelayConstant":50,
+        "FooterCol1":{
+            "FooterLogo":"app-images/logo-text-black.png",
+            "FooterPara":"301S Market St, San Jose, CA 95113, USA",
+            "FooterSocial":[
+                {
+                    "FooterSocialImg":"app-images/fb-icon.png"
+                },
+                {
+                    "FooterSocialImg":"app-images/g+.png"
+                },
+                {
+                    "FooterSocialImg":"app-images/insta.png"
+                },
+                {
+                    "FooterSocialImg":"app-images/twitter.png"
+                },
+                {
+                    "FooterSocialImg":"app-images/pinterest.png"
+                }
+            ]
+        },
+        "FooterCol2":{
+            "FooterTitle":"About Us",
+            "FooterPara":" Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+        },
+        "FooterCol3":{
+            "FooterTitle":"Features",
+            "FooterUl":[
+                {
+                    "FooterMenu":"Awesome Clients Support"
+                },
+                {
+                    "FooterMenu":"Secure Payment"
+                },
+                {
+                    "FooterMenu":"Satisfaction Guarantee"
+                },
+                {
+                    "FooterMenu":"Useful Feature"
+                },
+                {
+                    "FooterMenu":"Responsiveness"
+                },
+                {
+                    "FooterMenu":"Manage"
+                }
+            ]
+        },
+        "FooterCol4":{
+            "FooterTitle":"Quick Links",
+            "FooterUl":[
+                {
+                    "FooterMenu":"Home",
+                    "Href":"#homeContainer"
+                },
+                {
+                    "FooterMenu":"Features",
+                    "Href":"#featuresContainer"
+                },
+                {
+                    "FooterMenu":"Product",
+                    "Href":"#productContainer"
+                },
+                {
+                    "FooterMenu":"Pricing",
+                    "Href":"#pricingContainer"
+                },
+                {
+                    "FooterMenu":"Contact",
+                    "Href":"#contactContainer"
+                }
+            ]
+        },
+        "BottomFooterPara":"© Copyrights by: reactrepo.com"
+    }
+}

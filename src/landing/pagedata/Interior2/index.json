@@ -1,0 +1,304 @@
+{
+    "Header":
+    {
+        "BrandLogo":"interior2-images/logo-text-black.png",
+        "BrandLogoSticky":"interior2-images/logo-text-black.png",
+        "Items":["homeContainer","aboutContainer","featuresContainer","servicesContainer","contactContainer"],
+        "ScrollSpy":[
+            {
+                "Menu":"Home",
+                "Href":"#homeContainer"
+            },
+            {
+                "Menu":"About",
+                "Href":"#aboutContainer"
+            },
+            {
+                "Menu":"Features",
+                "Href":"#featuresContainer"
+            },
+            {
+                "Menu":"Services",
+                "Href":"#servicesContainer"
+            },
+            {
+                "Menu":"Contact",
+                "Href":"#contactContainer"
+            }
+        ]
+    },
+
+    "Banner":
+    {
+        "DelayConstant":50,
+        "BannerH3":"Future of Home Interior Design",
+        "BannerH4":"delivered to you",
+        "BannerPara":"Many desktop publishing packages and web page editors now use lorem...",
+        "BannerBtn":"Contact Now",
+        "BannerImage1":"interior2-images/banner1.jpg",
+        "BannerImage2":"interior2-images/banner2.jpg",
+        "BannerImage3":"interior2-images/banner3.jpg",
+        "PrevImg":"interior2-images/others-left-arrow.svg",
+        "NextImg":"interior2-images/others-right-arrow.svg"
+        
+    },
+
+    "About":
+    {
+        "DelayConstant":50,
+        "AboutLeftImage":"interior2-images/about.png",
+        "AboutHeading":"About Us",
+        "AboutDesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "AboutBtn":"Contact Us"
+    },
+
+    "FeaturesSlider":
+    {
+        "DelayConstant":50,
+        "SliderWrapperHeading":"Features",
+        "SliderColWrapper":[
+            {
+                "SliderImg":"interior2-images/feature-image-1.jpg",
+                "SliderHoverText":"Meridian Coffee Table"
+            },
+            {
+                "SliderImg":"interior2-images/feature-image-2.jpg",
+                "SliderHoverText":"Exquisite locks"
+            },
+            {
+                "SliderImg":"interior2-images/feature-image-3.jpg",
+                "SliderHoverText":"Handloom holder"
+            },
+            {
+                "SliderImg":"interior2-images/feature-image-4.jpg",
+                "SliderHoverText":"Minnelli Sofa"
+            },
+            {
+                "SliderImg":"interior2-images/feature-image-5.jpg",
+                "SliderHoverText":"Latest Wood Fittings"
+            }
+        ],
+        "PrevImg":"interior2-images/others-left-arrow.svg",
+        "NextImg":"interior2-images/others-right-arrow.svg"
+    },
+
+    "KeyServices":
+    {
+        "DelayConstant":50,
+        "SectionHeading":"Our Services",
+        "KeyServicesLeftImage":"interior2-images/services-image.jpg",
+        "KeyServicesCustomContainer":[
+            {
+                "KeyServicesIcon":"interior2-images/service-1-01.svg",
+                "KeyServicesHeading":"Interior Design",
+                "KeyServicesDesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+            },
+            {
+                "KeyServicesIcon":"interior2-images/service-2-01.svg",
+                "KeyServicesHeading":"Wall Covering",
+                "KeyServicesDesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+            },
+            {
+                "KeyServicesIcon":"interior2-images/service-3-01.svg",
+                "KeyServicesHeading":"Carpet and Flooring",
+                "KeyServicesDesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+            },
+            {
+                "KeyServicesIcon":"interior2-images/service-4-01.svg",
+                "KeyServicesHeading":"Ceiling Light fixtures",
+                "KeyServicesDesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+            }
+        ]
+    },
+
+    "Gallery":{
+        "DelayConstant":50,
+        "SectionHeading":"Gallery",
+        "Slider":[
+            {
+                "GallerySliderImg":"interior2-images/gallery-1.jpg"
+            },
+            {
+                "GallerySliderImg":"interior2-images/gallery-2.jpg"
+            },
+            {
+                "GallerySliderImg":"interior2-images/gallery-3.jpg"
+            },
+            {
+                "GallerySliderImg":"interior2-images/gallery-4.jpg"
+            },
+            {
+                "GallerySliderImg":"interior2-images/gallery-5.jpg"
+            },
+            {
+                "GallerySliderImg":"interior2-images/gallery-6.jpg"
+            },
+            {
+                "GallerySliderImg":"interior2-images/gallery-1.jpg"
+            },
+            {
+                "GallerySliderImg":"interior2-images/gallery-2.jpg"
+            }
+        ],
+        "PrevImg":"interior2-images/others-left-arrow.svg",
+        "NextImg":"interior2-images/others-right-arrow.svg"
+    },
+
+    "Testimonials":
+    {
+        "DelayConstant":50,
+        "TestimonialHeading":"Testimonials",
+        "QuoteImg":"interior2-images/quote.png",
+        "CardProfileLayout":[
+            {
+                "ProfilePic":"interior2-images/testimonial-1.jpg",
+                "ProfileName":"John Wall",
+                "Designation":"Director at ABC",
+                "TestimonailHeading":"What a Fantastic Transformation",
+                "Testimonial":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+            },
+            {
+                "ProfilePic":"interior2-images/testimonial-2.jpg",
+                "ProfileName":"Dan Taylor",
+                "Designation":"CEO at XYZ",
+                "TestimonailHeading":"Illuminating and Rewarding Experience",
+                "Testimonial":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+            },
+            {
+                "ProfilePic":"interior2-images/testimonial-3.jpg",
+                "ProfileName":"Jeremy Watson",
+                "Designation":"CTO at ABC",
+                "TestimonailHeading":"What a Fantastic Transformation",
+                "Testimonial":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+            }
+        ],
+        "PrevImg":"interior2-images/others-left-arrow.svg",
+        "NextImg":"interior2-images/others-right-arrow.svg"
+    },
+
+    "SubscribeNewsLetter":
+    {
+        "DelayConstant":50,
+        "SectionHeading":"Subscribe Newsletter",
+        "SectionSubHeading":"Receive Our Latest Product Updates by Email"
+    },
+    
+    "ContactUs":
+    {
+        "SectionHeading":"Get a Free Estimate Today",
+        "SectionSubHeading":"Get in touch with us",
+        "ContactRight":
+        {
+            "ContactRightHeading":"Enquire Now",
+            "ContactRightPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
+            "ContactRightRow":[
+                {
+                    "ContactRightImg":"interior2-images/phone.svg",
+                    "ContactRightText":"+91 98450 98540"
+                },
+                {
+                    "ContactRightImg":"interior2-images/mail.svg",
+                    "ContactRightText":"hello@reactrepo.com"
+                },
+                {
+                    "ContactRightImg":"interior2-images/address.svg",
+                    "ContactRightText":"Ground Floor, No 451, 17th Cross Road, Sector 4, HSR Layout, Bangalore - 102"
+                }
+            ]
+        }
+    },
+
+    "Footer":{
+        "DelayConstant":50,
+        "FooterCol1":{
+            "FooterLogo":"interior2-images/logo-text-white.png",
+            "FooterPara":[
+                {
+                    "Para":"301S Market St, San Jose, CA 95113, USA"
+                }
+            ],
+            "FooterSocial":[
+                {
+                    "FooterSocialImg":"interior2-images/fb-icon.png"
+                },
+                {
+                    "FooterSocialImg":"interior2-images/g+.png"
+                },
+                {
+                    "FooterSocialImg":"interior2-images/insta.png"
+                },
+                {
+                    "FooterSocialImg":"interior2-images/twitter.png"
+                },
+                {
+                    "FooterSocialImg":"interior2-images/pinterest.png"
+                }
+            ]
+        },
+        "FooterCol2":{
+            "FooterTitle":"About Us",
+            "FooterPara":[
+                {
+                    "Para":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                }
+            ]
+        },
+
+        "FooterCol3":{
+            "FooterTitle":"Features",
+            "FooterUl":[
+                {
+                    "FooterMenu":"Awesome Clients Support"
+                },
+                {
+                    "FooterMenu":"Secure Payment"
+                },
+                {
+                    "FooterMenu":"Satisfaction Guarantee"
+                },
+                {
+                    "FooterMenu":"Useful Feature"
+                },
+                {
+                    "FooterMenu":"Responsiveness"
+                },
+                {
+                    "FooterMenu":"Manage"
+                }
+            ]
+
+        },
+
+        "FooterCol4":{
+            "FooterTitle":"Quick Links",
+            "Items":["homeContainer","aboutContainer","featuresContainer","servicesContainer","contactContainer"],
+            "FooterUl":[
+                {
+                    "FooterMenu":"Home",
+                    "Href":"#homeContainer"
+                },
+                {
+                    "FooterMenu":"About",
+                    "Href":"#aboutContainer"
+                },
+                {
+                    "FooterMenu":"Features",
+                    "Href":"#featuresContainer"
+                },
+                {
+                    "FooterMenu":"Services",
+                    "Href":"#servicesContainer"
+                },
+                {
+                    "FooterMenu":"Gallery",
+                    "Href":"#galleryContainer"
+                },
+                {
+                    "FooterMenu":"Contact",
+                    "Href":"#contactContainer"
+                }
+            ]
+        },
+        "BottomFooterPara":" © 2019 Copyrights by reactrepo.com"
+    }
+}

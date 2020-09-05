@@ -1,0 +1,324 @@
+{
+    "Header":
+    {
+        "BrandLogo":"corporate2-images/logo-text-white.png",
+        "BrandLogoSticky":"corporate2-images/logo-text-black.png",
+        "Items":["homeContainer","KeyServicesContainer","portfolioContainer","teamContainer","contactContainer"],
+        "ScrollSpy":[
+            {
+                "Menu":"Home",
+                "Href":"#homeContainer"
+            },
+            {
+                "Menu":"Key Services",
+                "Href":"#KeyServicesContainer"
+            },
+            {
+                "Menu":"Portfolio",
+                "Href":"#portfolioContainer"
+            },
+            {
+                "Menu":"Team",
+                "Href":"#teamContainer"
+            },
+            {
+                "Menu":"Contact",
+                "Href":"#contactContainer"
+            }
+        ]
+    },
+
+    "Banner":
+    {
+        "DelayConstant":50,
+        "BannerH3":"We Are Your Digital Marketing Partner",
+        "BannerH4":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "BannerBtn":"Contact Now"
+    },
+
+    "KeyServices":{
+        "DelayConstant":50, 
+        "KeyServicesLeft":{
+            "KeyServicesLeftH3":"We provide Maximum ROI for Your Marketing Spends",
+            "KeyServicesLeftPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+            "KeyServicesLeftBtn":"Get Started Now"
+        },
+        "KeyServicesRight1":[
+            {
+                "KeyServicesCardIcon":"corporate2-images/icon-1.svg",
+                "KeyServicesCardHeading":"Targeted Marketing",
+                "KeyServicesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+            },
+            {
+                "KeyServicesCardIcon":"corporate2-images/icon-2.svg",
+                "KeyServicesCardHeading":"Facebook Ads",
+                "KeyServicesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+            }
+           
+        ],
+        "KeyServicesRight2":[
+            {
+                "KeyServicesCardIcon":"corporate2-images/icon-3.svg",
+                "KeyServicesCardHeading":"B2B Campaigns",
+                "KeyServicesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+            },
+            {
+                "KeyServicesCardIcon":"corporate2-images/icon-4.svg",
+                "KeyServicesCardHeading":"Remarketing Ads",
+                "KeyServicesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+            }
+           
+        ]
+    },
+
+    "ImageText":{
+        "DelayConstant":50,
+        "AboutCardIcon":"corporate2-images/about image.png",
+        "AboutRight":{
+            "AboutRightH3":"Result Oriented Digital Marketing Strategy",
+            "AboutRightPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+            "AboutRightBtn":"Get Started Now"
+        }
+    },
+
+    "Services":{
+        "DelayConstant":50,
+        "Heading":"Our Services",
+        "ServicesRight1":[
+            {
+                "ServicesCardIcon":"corporate2-images/feature-icon-1.svg",
+                "ServicesCardHeading":"Media Marketing",
+                "ServicesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+            },
+            {
+                "ServicesCardIcon":"corporate2-images/feature-icon-2.svg",
+                "ServicesCardHeading":"Content Writing",
+                "ServicesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+            }
+        ],
+        "ServicesRight2":[
+            {
+                "ServicesCardIcon":"corporate2-images/feature-icon-3.svg",
+                "ServicesCardHeading":"Web Design",
+                "ServicesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+            },
+            {
+                "ServicesCardIcon":"corporate2-images/feature-icon-4.svg",
+                "ServicesCardHeading":"SEO Consulting",
+                "ServicesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+            }
+        ],
+        "ServicesRight3":{
+            "ServicesLeftImg":"corporate2-images/feature-image.png"
+        }
+    },
+
+    "Portfolio":
+    {
+        "DelayConstant":50,
+        "SectionHeading":"Portfolio",
+        "PorfolioSlider":[
+            {
+                "PorfolioSliderImg":"corporate2-images/portfolio-1.png",
+                "PorfolioSliderTitle":"Dashboard",
+                "PorfolioSliderHoverText":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "PorfolioSliderImg":"corporate2-images/portfolio-3.png",
+                "PorfolioSliderTitle":"Conference 2019",
+                "PorfolioSliderHoverText":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "PorfolioSliderImg":"corporate2-images/portfolio-4.png",
+                "PorfolioSliderTitle":"Creative Agency",
+                "PorfolioSliderHoverText":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "PorfolioSliderImg":"corporate2-images/portfolio-5.png",
+                "PorfolioSliderTitle":"Energy Industry",
+                "PorfolioSliderHoverText":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            }
+        ],
+        "PrevImg":"corporate2-images/left-arrow.svg",
+        "NextImg":"corporate2-images/right-arrow.svg"
+    },
+
+    "Team":
+    {
+        "DelayConstant":50,
+        "SectionHeading":"Our Team",
+        "TeamSlider":[
+            {
+                "TeamSliderImg":"corporate2-images/team-1.jpg",
+                "TeamName":"Derek Peters",
+                "TeamDesignation":"Director"
+            },
+            {
+                "TeamSliderImg":"corporate2-images/team-2.jpg",
+                "TeamName":"Vince Dawson",
+                "TeamDesignation":"CEO"
+            },
+            {
+                "TeamSliderImg":"corporate2-images/team-3.jpg",
+                "TeamName":"Jeremy Watson",
+                "TeamDesignation":"Manager"
+            },
+            {
+                "TeamSliderImg":"corporate2-images/team-1.jpg",
+                "TeamName":"Andrew Roberts",
+                "TeamDesignation":"Lead"
+            },
+            {
+                "TeamSliderImg":"corporate2-images/team-2.jpg",
+                "TeamName":"Thomas John",
+                "TeamDesignation":"Designer"
+            }
+        ],
+        "PrevImg":"corporate2-images/left-arrow.svg",
+        "NextImg":"corporate2-images/right-arrow.svg"
+    },
+
+    "SubscribeNewsLetter":
+    {
+        "DelayConstant":50,
+        "SectionHeading":"Subscribe Newsletter",
+        "SectionSubHeading":"Receive Our Latest Product Updates by Email"
+    },
+
+    "ContactUs":
+    {
+        "SectionHeading":"Contact Us",
+        "SectionSubHeading":"Get in touch with us",
+        "ContactRight":
+        {
+            "ContactRightHeading":"Enquire Now",
+            "ContactRightPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
+            "ContactRightRow":[
+                {
+                    "ContactRightImg":"corporate2-images/phone.svg",
+                    "ContactRightText":"+91 98450 98540"
+                },
+                {
+                    "ContactRightImg":"corporate2-images/mail.svg",
+                    "ContactRightText":"hello@reactrepo.com"
+                },
+                {
+                    "ContactRightImg":"corporate2-images/address.svg",
+                    "ContactRightText":"Ground Floor, No 451, 17th Cross Road, Sector 4, HSR Layout, Bangalore - 102"
+                }
+            ]
+        }
+    },
+    
+    "Testimonials":
+    {
+        "DelayConstant":50,
+        "TestimonialHeading":"Testimonials",
+        "CardProfileLayout":[
+            {
+                "ProfilePic":"corporate2-images/testimonial-1.jpg",
+                "ProfileName":"John Wall",
+                "Designation":"Director at ABC",
+                "TestimonailHeading":"Best Pricing Interior Designing",
+                "Testimonial":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+            },
+            {
+                "ProfilePic":"corporate2-images/testimonial-2.jpg",
+                "ProfileName":"Dan Taylor",
+                "Designation":"CEO at XYZ",
+                "TestimonailHeading":"Best Pricing Interior Designing",
+                "Testimonial":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+            },
+            {
+                "ProfilePic":"corporate2-images/testimonial-3.jpg",
+                "ProfileName":"Jeremy Watson",
+                "Designation":"CTO at ABC",
+                "TestimonailHeading":"Best Pricing Interior Designing",
+                "Testimonial":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+            }
+        ],
+        "PrevImg":"corporate2-images/left-arrow.svg",
+        "NextImg":"corporate2-images/right-arrow.svg"
+    },
+
+    "Footer":
+    {
+        "DelayConstant":50,
+        "FooterCol1":
+        {
+            "FooterTitle":"Company",
+            "FooterPara":[
+                {
+                    "Para":"Address: Champ de Mars, 5 Avenue Anatole France"
+                },
+                {
+                    "Para":"Email: hello@reactrepo.com"
+                },
+                {
+                    "Para":"Phone: +91 98450 98540"
+                }
+            ]
+        },
+        "FooterCol2":
+        {
+            "FooterTitle":"About",
+            "FooterPara":[
+                {
+                    "Para":" Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+                }
+            ]
+        },
+        "FooterCol3":
+        {
+            "FooterTitle":"Quick Links",
+            "Items":["homeContainer","KeyServicesContainer","portfolioContainer","teamContainer","contactContainer"],
+            "FooterUl":[
+                {
+                    "Menu":"Home",
+                    "Href":"#homeContainer"
+                },
+                {
+                    "Menu":"Key Services",
+                    "Href":"#KeyServicesContainer"
+                },
+                {
+                    "Menu":"Portfolio",
+                    "Href":"#portfolioContainer"
+                },
+                {
+                    "Menu":"Team",
+                    "Href":"#teamContainer"
+                },
+                {
+                    "Menu":"Contact",
+                    "Href":"#contactContainer"
+                }
+            ]
+        },
+
+        "FooterCol4":
+        {
+            "FooterTitle":"Follow Us On",
+            "FooterSocial":
+            [
+                {
+                    "FooterSocialImg":"corporate2-images/fb-icon-footer.png"
+                },
+                {
+                    "FooterSocialImg":"corporate2-images/linked-in-icon-footer.png"
+                },
+                {
+                    "FooterSocialImg":"corporate2-images/twitter-icon-footer.png"
+                },
+                {
+                    "FooterSocialImg":"corporate2-images/youtube-icon-footer.png"
+                },
+                {
+                    "FooterSocialImg":"corporate2-images/instagram-icon-footer.png"
+                }
+            ]
+        },
+        "BottomFooterPara":" © 2019 Copyrights by reactrepo.com"
+    }
+
+}
